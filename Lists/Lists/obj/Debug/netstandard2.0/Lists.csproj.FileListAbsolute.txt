@@ -1,0 +1,12 @@
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\bin\Debug\netstandard2.0\Lists.deps.json
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\bin\Debug\netstandard2.0\Lists.dll
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\bin\Debug\netstandard2.0\Lists.pdb
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.csprojAssemblyReference.cache
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.csproj.CoreCompileInputs.cache
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfoInputs.cache
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfo.cs
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.dll
+C:\Users\mahlatset\Desktop\section_5_Lists\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.pdb

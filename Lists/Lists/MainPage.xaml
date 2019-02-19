@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Lists"
+             x:Class="Lists.MainPage">
+    
+    <!--#region for the contact display-->
+    <!--<StackLayout>
+        <ListView x:Name="listView" SeparatorColor="Black" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell >
+                        <StackLayout Orientation="Horizontal" Padding="5">
+                            <Image Source="{Binding ImageUrl}"/>
+                            <StackLayout HorizontalOptions="StartAndExpand" BackgroundColor="Yellow">
+                                <Label Text="{Binding Name}" TextColor="Black"/>
+                                <Label Text="{Binding Status}" TextColor ="Gray"/>
+                            </StackLayout>
+                            <Button Text="Follow" TextColor="Blue" BackgroundColor="White"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>-->
+    <!--#endregion-->
+
+    <!--#region for the group contact display-->
+    <!--<ListView x:Name="newListView"
+              IsGroupingEnabled="True"
+              GroupDisplayBinding="{Binding Title}"
+              GroupShortNameBinding="{Binding ShortTitle}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Name}" Detail="{Binding status}" />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>-->
+    <!--#endregion-->
+
+    <!--#region for the handling selections display-->
+    <!--<ListView x:Name="listView"
+              ItemTapped="ListView_ItemTapped"
+              ItemSelected="ListView_ItemSelected" >
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Name}" Detail="{Binding Status}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>-->
+    <!--#endregion-->
+
+    <!--#region for the Context action display-->
+
+    <ListView x:Name="listView">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Name}" Detail="{Binding Status}">
+                    <TextCell.ContextActions>
+                        <MenuItem Text="Call" Clicked="Call_Clicked" CommandParameter="{Binding .}"/>
+                        <MenuItem Text="Delete" IsDestructive="True" Clicked="Delete_Clicked_1" CommandParameter="{Binding .}"/>
+                    </TextCell.ContextActions>
+                </TextCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+    
+    <!--#endregion-->
+
+    <!--#region for the placeholder display-->
+    <!--#endregion-->
+
+</ContentPage>
