@@ -350,11 +350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mahlatset\\Desktop\\section_5_Lists\\Lists\\Lists\\Lists\\Lists.csproj",
+      "projectUniqueName": "C:\\Users\\mahlatset\\Desktop\\List_module_5\\section_5_Lists\\Lists\\Lists\\Lists.csproj",
       "projectName": "Lists",
-      "projectPath": "C:\\Users\\mahlatset\\Desktop\\section_5_Lists\\Lists\\Lists\\Lists\\Lists.csproj",
+      "projectPath": "C:\\Users\\mahlatset\\Desktop\\List_module_5\\section_5_Lists\\Lists\\Lists\\Lists.csproj",
       "packagesPath": "C:\\Users\\mahlatset\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mahlatset\\Desktop\\section_5_Lists\\Lists\\Lists\\Lists\\obj\\",
+      "outputPath": "C:\\Users\\mahlatset\\Desktop\\List_module_5\\section_5_Lists\\Lists\\Lists\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

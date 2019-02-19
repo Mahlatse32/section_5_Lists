@@ -39,7 +39,7 @@ namespace Lists
             DisplayAlert("Call", contact.Name, "ok");
         }
 
-        private ObservableCollection<Contact> _contacts;
+        private List<Contact> _contacts;
         private void Delete_Clicked_1(object sender, EventArgs e)
         {
             var contact = (sender as MenuItem).CommandParameter as Contact;
@@ -93,12 +93,7 @@ namespace Lists
 
             #region Context Actions
 
-            _contacts = new ObservableCollection<Contact>
-            {
-                new Contact{ Name = "Mahlatse", ImageUrl = "http://lorempixel.com/100/100/people/1", Status = "Available"},
-                new Contact{ Name = "Mpho", ImageUrl = "http://lorempixel.com/100/100/people/2", Status = "hahaha. . ."},
-                new Contact{ Name = "Emma", ImageUrl = "http://lorempixel.com/100/100/people/3"}
-            };
+            _contacts = GetContacts();
 
             listView.ItemsSource = _contacts;
             #endregion
@@ -106,5 +101,35 @@ namespace Lists
         #region placeholder
         #endregion
 
+        #region pull to refresh
+
+        List<Contact> GetContacts(string searchText = null)
+        {
+            var contacts = new List<Contact>
+            {
+                new Contact{ Name = "Mahlatse", ImageUrl = "http://lorempixel.com/100/100/people/1", Status = "Available"},
+                new Contact{ Name = "Mpho", ImageUrl = "http://lorempixel.com/100/100/people/2", Status = "hahaha. . ."},
+                new Contact{ Name = "Emma", ImageUrl = "http://lorempixel.com/100/100/people/3"}
+            };
+
+            if (string.IsNullOrWhiteSpace(searchText))
+                return contacts;
+            else
+                return contacts.Where(x => x.Name.StartsWith(searchText)).ToList();
+        }
+
+        private void ListView_Refreshing(object sender, EventArgs e)
+        {
+            GetContacts();
+
+            listView.EndRefresh();
+        }
+
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            listView.ItemsSource = GetContacts(e.NewTextValue);
+        }
+
+        #endregion
     }
 }

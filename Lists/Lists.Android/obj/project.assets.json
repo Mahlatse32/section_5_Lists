@@ -802,11 +802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mahlatset\\Desktop\\section_5_Lists\\Lists\\Lists\\Lists.Android\\Lists.Android.csproj",
+      "projectUniqueName": "C:\\Users\\mahlatset\\Desktop\\List_module_5\\section_5_Lists\\Lists\\Lists.Android\\Lists.Android.csproj",
       "projectName": "Lists.Android",
-      "projectPath": "C:\\Users\\mahlatset\\Desktop\\section_5_Lists\\Lists\\Lists\\Lists.Android\\Lists.Android.csproj",
+      "projectPath": "C:\\Users\\mahlatset\\Desktop\\List_module_5\\section_5_Lists\\Lists\\Lists.Android\\Lists.Android.csproj",
       "packagesPath": "C:\\Users\\mahlatset\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mahlatset\\Desktop\\section_5_Lists\\Lists\\Lists\\Lists.Android\\obj\\",
+      "outputPath": "C:\\Users\\mahlatset\\Desktop\\List_module_5\\section_5_Lists\\Lists\\Lists.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -823,8 +823,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\mahlatset\\Desktop\\section_5_Lists\\Lists\\Lists\\Lists\\Lists.csproj": {
-              "projectPath": "C:\\Users\\mahlatset\\Desktop\\section_5_Lists\\Lists\\Lists\\Lists\\Lists.csproj"
+            "C:\\Users\\mahlatset\\Desktop\\List_module_5\\section_5_Lists\\Lists\\Lists\\Lists.csproj": {
+              "projectPath": "C:\\Users\\mahlatset\\Desktop\\List_module_5\\section_5_Lists\\Lists\\Lists\\Lists.csproj"
             }
           }
         }

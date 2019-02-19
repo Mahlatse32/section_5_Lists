@@ -51,8 +51,11 @@
     <!--#endregion-->
 
     <!--#region for the Context action display-->
-
-    <ListView x:Name="listView">
+    <StackLayout>
+        
+        <SearchBar Placeholder="search. . ." TextChanged="SearchBar_TextChanged"/>
+        
+        <ListView x:Name="listView" IsPullToRefreshEnabled="True" Refreshing ="ListView_Refreshing">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding Name}" Detail="{Binding Status}">
@@ -64,7 +67,7 @@
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
-    
+    </StackLayout>
     <!--#endregion-->
 
     <!--#region for the placeholder display-->
